@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+}
+
+p {text-align: center}
+
+a, a:hover, a:active, a:focus, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+
+}
+
+.main-container {
+
+}
+
+.main-container.main {
+
+}
+
+.masthead {
+	width: 100%;
+	background: url("./img/wot-masthead-dark.jpg") center center / cover;
+	background-repeat: no-repeat;
+	height: 50%;
+	position: absolute;
+
+}
+
+.workshop {
+	margin: 10% 0 15% 0 auto;
+	padding: 10% 0 15% 0 auto;
+	color: white;
+}
+
+.workshop.big {
+	font-size: 120px;
+}
+
+.workshop.small {
+	text-align: left;
+	margin-right: 35em
+}
+
+/*.masthead::after {
+	content: "";
+}
+*/
+
+.mobile-nav {
+	margin-left:30em;
+	margin-right: 8em;
+	min-width: 2em
+}
+
+.mobile-nav-links {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.mobile-nav-link-item {
+
+
+}
